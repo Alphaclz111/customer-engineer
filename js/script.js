@@ -1,6 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
-const customerId = urlParams.get("name");
-const customerEmail = urlParams.get("email");
+const customerId = urlParams.get("key1");
+const customerEmail = urlParams.get("key2");
 const nameDisplay = document.getElementById("nameDisplay");
 const emailDisplay = document.getElementById("emailDisplay");
 
