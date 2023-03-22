@@ -70,7 +70,7 @@ function handleSubmit(event) {
   let nameValue = event.target.name.value;
   let emailValue = event.target.email.value;
   const url =
-    "http://localhost:5500/index.html?key1=" +
+    "https://alphaclz111.github.io/customer-engineer/index.html?key1=" +
     nameValue +
     "&key2=" +
     emailValue;
