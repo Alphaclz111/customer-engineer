@@ -23,7 +23,10 @@ const emailDisplay = document.getElementById("emailDisplay");
   document,
   window
 );
-ire("identify", { customerid: customerId, customeremail: customerEmail });
+ire("identify", {
+  customerid: customerId,
+  customeremail: customerEmail,
+});
 
 if (customerId !== null && customerEmail !== null) {
   nameDisplay.innerText = `Name: ${customerId}`;
