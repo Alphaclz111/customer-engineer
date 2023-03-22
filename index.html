@@ -24,12 +24,12 @@
   </head>
   <body>
     <div class="container">
-      <form action="index.html">
+      <form onsubmit="handleSubmit(event)">
         <label for="name">Name</label>
         <input
           type="text"
           id="name"
-          name="key1"
+          name="name"
           placeholder="Your name.."
           required
         />
@@ -38,13 +38,15 @@
         <input
           type="email"
           id="email"
-          name="key2"
+          name="email"
           placeholder="Your email.."
           required
         />
 
         <label for="message">Message</label>
         <textarea
+          id="message"
+          name="message"
           placeholder="Write something.."
           style="height: 100px"
         ></textarea>
